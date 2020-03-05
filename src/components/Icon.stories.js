@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react';
-import styled, { css } from 'styled-components';
+import React, { Fragment } from "react";
+import styled, { css } from "styled-components";
 
-import { Icon } from './Icon';
-import { icons } from './shared/icons';
+import { Icon } from "./Icon";
+import { icons } from "../shared/icons";
 
 const Meta = styled.div`
   color: #666;
@@ -49,8 +49,8 @@ const List = styled.ul`
 `;
 
 export default {
-  title: 'Design System|Icon',
-  component: Icon,
+  title: "Design System|Icon",
+  component: Icon
 };
 
 export const labels = () => (
@@ -78,12 +78,13 @@ export const noLabels = () => (
 );
 
 noLabels.story = {
-  name: 'no labels',
+  name: "no labels"
 };
 
 export const inline = () => (
   <Fragment>
-    this is an inline <Icon icon="facehappy" aria-label="Happy face" /> icon (default)
+    this is an inline <Icon icon="facehappy" aria-label="Happy face" /> icon
+    (default)
   </Fragment>
 );
 

@@ -1,6 +1,6 @@
 {
   "name": "marcelcruz-learnstorybook-design-system",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Learn Storybook design system",
   "main": "dist/index.js",
   "repository": "https://github.com/marcelscruz/storybook-design-system.git",

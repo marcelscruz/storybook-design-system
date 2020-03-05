@@ -6,6 +6,9 @@
   "repository": "https://github.com/marcelscruz/storybook-design-system.git",
   "author": "marcelscruz <marcelcruz@live.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=10.14"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

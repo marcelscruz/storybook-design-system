@@ -44,6 +44,10 @@ export const sizes = () => (
   </div>
 );
 
+sizes.story = {
+  parameters: { docs: { storyDescription: "4 sizes are supported." } }
+};
+
 export const initials = () => (
   <div>
     <Avatar username="Tom Coleman" />
